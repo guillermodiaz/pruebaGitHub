@@ -1,0 +1,33 @@
+@import "funciones.less";
+
+@colorPrimario:#00AFF0;//Azul skype
+@colorPrimario: #23A2DB;//Azul claro
+@colorPrimario: #008272;//Verde MSN
+@colorPrimario: #008B98;//Verde Azul New Relic
+@colorPrimario: #015DAB;//azul microsoft
+@colorPrimario: #2B579A;//Azul Oscuro
+
+//fuentes
+@import url(http://fonts.googleapis.com/css?family=Lobster);//pegada
+@import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);//Despegada manuscrita
+
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);//Letra recta
+
+@letraTitulos:'Lobster', cursive;//pegada
+@letraPpal:'Gloria Hallelujah', cursive;//Despegada manuscrita
+@letraPpal:'Varela Round', sans-serif;//Letra recta
+
+
+body{
+    font-family: @letraPpal;
+    color: darken(@colorPrimario,5%);
+    background-color: darken(@colorPrimario,-10%);
+}
+
+header{
+    color: darken(@colorPrimario,-50%);
+}
+
+h1,h2,footer{
+    font-family: @letraTitulos;
+}

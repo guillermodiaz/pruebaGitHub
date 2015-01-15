@@ -1,1 +1,37 @@
-{\rtf1}
+<!DOCTYPE html>
+<html lang="en" ng-app="app" ng-init="" ng-controller="MainController">
+    <head>
+        <meta charset="UTF-8">
+        <title>{{data.titulo}}</title>
+
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+        <script src="app/app.usuario.js"></script>
+
+    </head>
+    <body>
+        <header class="panel text-left">
+            <nav class="nav nav-tabs">
+               <ul class="nav nav-tabs">
+                   <li><a href="">Contacto</a> </li>
+                    <li><a href="">Blog</a> </li>    
+               </ul>
+                
+            </nav>
+        </header>
+
+        <articule class="container" id='hojaVida' ng-include="'views/hojaVida.html'"/>
+
+        <div ng-include="'views/visorPDF.html'" class="container"></div>
+
+        <footer>
+            <p> By Guillermo Díaz Gallego</p>
+        </footer>
+
+    </body>
+</html>

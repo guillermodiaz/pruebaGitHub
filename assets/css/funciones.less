@@ -1,0 +1,23 @@
+//Funciones Generales
+
+.redondear (@radius: 5px) {
+    -moz-border-radius: @radius;
+    -webkit-border-radius: @radius;
+    border-radius: @radius;
+}
+
+.gradiente (@color1:#e3e3e3, @color2:#fff,@origen: top) {
+
+   background: -webkit-linear-gradient(@origen, @color1, @color2);
+   background: -moz-linear-gradient(@origen, @color1, @color2);
+   background: -o-linear-gradient(@origen, @color1, @color2);
+   background: -ms-linear-gradient(@origen, @color1, @color2);
+   background: linear-gradient(@origen, @color1, @color2);
+
+}
+
+.rotar(@grados:10deg) {
+    -ms-transform: rotate(@grados); /* IE 9 */
+    -webkit-transform: rotate(@grados); /* Chrome, Safari, Opera */
+    transform: rotate(@grados);
+}

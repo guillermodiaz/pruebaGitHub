@@ -1,0 +1,37 @@
+    <header class="container">
+          <h2 class="text-center" >{{data.titulo}}</h2>
+          
+          <p class="text-justify">
+              {{data.descripcion}}
+          </p>
+      </header>
+      
+      <section class="panel container" >
+         <h3 class="panel-heading">Datos Personales</h3>
+         <div class="panel-body" >   
+              <div  ng-repeat="infoPer in data.personalInfo"><strong class='glyphicon glyphicon-{{infoPer.ico}}'></strong><span> {{+infoPer.dato}}</span></div>
+         </div>
+      </section>
+
+      <section class="container panel">
+         <h3 class="panel-heading">Estudios</h3>
+         <dl class="dl-horizontal panel-body">
+            <span ng-repeat="estudio in data.estudios">    
+                 <dt>{{estudio.nivel}}:</dt>
+                 <dd>{{estudio.descripcion}}</dd>
+            </span>
+         </dl>
+      </section>
+      
+      <section class="container panel">
+          <h3 class="panel-heading">Estudios Complementarios</h3>
+             <ul class="list-inline text-center panel-body">
+				<li ng-repeat="estudio in data.estudiosComplementarios" class="text-center btn btn-default" >
+                    <a  href="#" ng-click="setVerPDF(estudio.href)" alt="Abrir" data-toggle="modal" data-target=".bs-example-modal-lg"> 
+                      <div><img ng-src="{{estudio.image}}" alt="" ></div>
+                      <span class="text">{{estudio.descripcion}}</span>
+                       <span class="glyphicon glyphicon-save"></span>   
+                    </a>
+                         
+                </li>
+      </section>

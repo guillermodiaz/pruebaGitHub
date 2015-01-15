@@ -1,0 +1,30 @@
+{
+    "titulo": "Guillermo Diaz Gallego",
+    "personalInfo":[
+        {"ico":"user","dato":"1128384735"},
+        {"ico":"calendar","dato":"24/12/1986"},
+        {"ico":"earphone","dato":"3002050906"},
+        {"ico":"envelope","dato":"guillermodiazga@gmail.com"},
+        {"ico":"home","dato":"Buenos Aires, Medellín"}
+    ],
+    "descripcion":"Me destaco por ser responsable, recursivo, creativo, con sentido de pertenencia y liderazgo, poseo gran experiencia en el desarrollo de aplicaciones y levantamiento de requerimientos, soy flexible a los cambios y me adapto con facilidad al trabajo en equipo buscando siempre la mejora en las tareas desempeñadas.",
+    
+    "estudios":[
+        {"nivel":"Superiores","descripcion":"Ingeniero de Sistemas. ITM, Institución Universitaria. Totalidad de Materias Aprobadas."},
+        {"nivel":"Tecnológicos","descripcion":"Tecnólogo en Sistemas de Información. ITM, Institución Universitaria. Septiembre de 2011."},
+        {"nivel":"Técnicos","descripcion":"Técnico en Sistemas de Información. CESDE. Julio de 2006."},
+        {"nivel":"Básicos","descripcion":"Bachiller Académico. Institución educativa Ciro Mendía. noviembre 2003."}
+    ],
+    
+    "estudiosComplementarios":[
+        {"image":"assets/img/microsoft.png","href":"assets/pdf/Certificate_2.pdf","descripcion":"HTML5 with JavaScript and CSS3 Specialist."},
+        {"image":"assets/img/bertliz.png","href":"assets/pdf/berlitz.pdf","descripcion":"Certificación: Ingles Bertliz Testing, Nivel B1, 2011."},
+        {"image":"assets/img/sena.png","href":"assets/pdf/programacion.pdf","descripcion":"Metodología de la Programación"},
+        {"image":"assets/img/sena.png","href":"assets/pdf/flash.pdf","descripcion":"Adobe Flash Básico"},
+        {"image":"assets/img/sena.png","href":"assets/pdf/photoshop.pdf","descripcion":"Adobe Photoshop Básico"}
+
+        
+    ]
+
+}
+    
